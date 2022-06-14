@@ -1,0 +1,9 @@
+.start-page-wrapper {
+  padding: 23px 72px 24px 72px;
+  display: flex;
+  flex-direction: column;
+  max-height: 673px;
+}
+
+
+

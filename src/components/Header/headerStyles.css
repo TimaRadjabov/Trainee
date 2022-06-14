@@ -1,0 +1,10 @@
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex: 0 0 auto;
+  padding: 17px 75px 30px 80px;
+}
+
+.header-wrapper_pictogram {
+  display: flex;
+}

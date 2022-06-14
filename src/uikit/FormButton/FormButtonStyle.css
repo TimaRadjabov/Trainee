@@ -1,0 +1,24 @@
+@import url("../../assets/theme/palette.css");
+.form-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 343px;
+  height: 48px;
+  background-color: var(--primary-yellow);
+  color: var(--primary-dark-gray);
+  outline: transparent;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1em;
+  margin-top: 16px;
+  border-radius: 2px;
+  transition: all 0.3s;
+  cursor: pointer;
+  border: 0px;
+}
+.button__disabled {
+  background-color: var(--secondary-yellow);
+  color: var(--secondary-gray);
+  cursor: default;
+}

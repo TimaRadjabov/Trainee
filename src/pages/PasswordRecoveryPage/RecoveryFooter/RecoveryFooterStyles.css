@@ -1,0 +1,39 @@
+@import url("../../../assets/theme/palette.css");
+
+.recovery-footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.recovery-footer-links-wrapper {
+    display: flex;
+    margin-right: 72px;
+}
+
+.recovery-footer-affinity-text {
+    margin-left: 72px;
+}
+
+.recovery-footer-links-wrapper, .recovery-footer-affinity-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--primary-white);
+}
+
+.recovery-footer-affinity-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--primary-white);
+}
+
+.recovery-footer-links-wrapper a:nth-child(1) {
+    margin-right: 16px;
+}
+.recovery-footer-links-wrapper a:nth-child(2) {
+    margin-right: 14px;
+}

@@ -1,0 +1,15 @@
+@import url("../../assets/theme/palette.css");
+
+.button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  overflow: visible;
+  background: transparent;
+  font: inherit;
+  line-height: normal;
+  cursor: pointer;
+  text-align: center;
+  color: var(--primary-white);
+}

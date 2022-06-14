@@ -1,0 +1,28 @@
+@import url('../../assets/theme/palette.css');
+
+.pictogram-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.pictogram-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: var(--primary-white);
+  margin-right: 13px;
+}
+
+.pictogram-img {
+  display: inline-block;
+  width: 14px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.pictogram-text:hover {
+  border-bottom: 1px solid var(--primary-yellow);
+}

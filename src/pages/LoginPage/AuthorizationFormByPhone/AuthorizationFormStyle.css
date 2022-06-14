@@ -1,0 +1,17 @@
+@import url("../../../assets/theme/palette.css");
+
+.form {
+  position: relative;
+}
+
+.mask {
+  position: absolute;
+  top: 42px;
+  left: 13px;
+  color: var(--primary-black);
+  pointer-events: none;
+}
+
+.passportID {
+  color: var(--primary-black);
+}

@@ -1,0 +1,9 @@
+export { ReactComponent as DollarVector } from "../../uikit/static/dollarVector.svg";
+export { ReactComponent as LocationIcon } from "../../uikit/static/location.svg";
+export { ReactComponent as LogoIcon } from "../../uikit/static/logo.svg";
+export { ReactComponent as ScrollDownIcon } from "../../uikit/static/scrollDownIcon.svg";
+export { ReactComponent as AffinityBank } from "../../uikit/static/affinityBank.svg";
+export { ReactComponent as Contacts } from "../../uikit/static/phone.svg";
+export { ReactComponent as Ellipse } from "../../uikit/static/ellipse.svg";
+export { ReactComponent as AppleMobileIcon } from "../../uikit/static/appleMobileApp.svg";
+export { ReactComponent as AndroidMobileIcon } from "../../uikit/static/androidMobileApp.svg";

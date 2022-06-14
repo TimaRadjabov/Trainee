@@ -1,0 +1,61 @@
+@import url("../../assets/theme/palette.css");
+
+.form-wrapper {
+  width: 407px;
+  height: auto;
+  background-color: var(--primary-white);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08), 0px 5px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.form-container {
+  box-sizing: border-box;
+  margin: 32px;
+}
+.form-title {
+  margin: 0;
+  font-size: 40px;
+  line-height: 1.6em;
+  text-align: center;
+}
+.form-button.button-style {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 343px;
+  height: 48px;
+  background-color: var(--secondary-yellow);
+  color: var(--secondary-gray);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1em;
+  margin-top: 16px;
+  border-radius: 2px;
+}
+
+.form-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+  padding: 2px;
+}
+.form-links > a {
+  font-size: 14px;
+  line-height: 1.4em;
+  color: var(--primary-dark-gray);
+  text-decoration: underline;
+}
+
+.form-button.registration {
+  background-color: var(--primary-gray);
+  color: var(--primary-dark-gray);
+}
+
+.error {
+  font-size: 12px;
+  line-height: 1.3em;
+  color: var(--primary-red);
+  position: relative;
+  top: -8px;
+}
